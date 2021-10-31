@@ -1,0 +1,344 @@
+html, body {
+	position: relative;
+	height: 100%;
+    scroll-behavior: smooth;
+}
+.swiper-container .swiper-slide {
+	position: relative;
+	overflow: hidden;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-scrollbar {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.paga {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    z-index: 3;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#s1 {
+    /* width: 100%; */
+    /* height: 100%; */
+    background: url(../img/bg20200922.jpg) no-repeat center center;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+header > .left > img {
+    float: left;
+    height: 100%;
+}
+
+header > .right {
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    /* margin-top: 20px; */
+}
+
+header > .right > span {
+    color: white;
+    margin-right: 40px;
+}
+
+header > .right > img {
+    position: relative;
+    top: 20px;
+    margin-right: 40px;
+}
+
+.search {
+    margin: 400px auto;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.search > .left {
+    float: left;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+
+.search > input {
+    margin-left: 20px;
+    width: 400px;
+    height: 100%;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: none;
+    font-size: 20px;
+    float: left;
+}
+
+.search > button {
+    float: right;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    width: 94px;
+    height: 100%;
+}
+
+#s2 .top{
+    background: url(../img/kjjbtop20200922.jpg)no-repeat center center;
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    /* margin-top: 160px; */
+}
+
+#s2 .top img {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#s2 .kj {
+    height: 100%;
+    background: url(../img/yjbg20200922.jpg)no-repeat -0px -120px;
+    text-align: center;
+}
+
+#s2 .kj img {
+    width: 25%;
+    margin-right: 20px;
+}
+
+#s2 .kjsp {
+    width: 400px;
+    height: 380px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#s2 .kjzi {
+    line-height: 48px;
+    width: 100%;
+    height: 94px;
+    border-bottom: 1px gray solid;
+    text-align: left;
+}
+
+#s2 .kjzi a {
+    color: orange;
+    float: right;
+}
+
+#s3 {
+    background: url(../img/cxzc20200922.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.top {
+    width: 100%;
+    height: 240px;
+    background: url(../img/cxzctop20200922.jpg)no-repeat center center;
+    text-align: center;
+}
+
+.top img {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.cx {
+    width: 280px;
+    height: 320px;
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.cx .zc {
+    width: 100%;
+    height: 70px;
+    /* background: url(../img/cxzcpic120210207.jpg)no-repeat; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cx .zc span {
+    color: white;
+    font-size: 20px;
+}
+
+.cxc{
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.xx {
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+#s4 {
+    background: url(../img/kjjb20200922.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+#s5 {
+    background: url(../img/zkzjbg20200922.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+#s6 {
+    background: url(../img/gywm20200922.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+#s7 {
+    background: url(../img/xxsd20200922.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.le {
+    width: 515px;
+    line-height: 30px;
+    float: left;
+}
+
+.l {
+    width: 1082px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.swiper {
+    width: 1200px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.wapper {
+    width: 3600px;
+    height: 360px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.slide {
+    width: 1200px;
+    height: 360px;
+    float: left;
+}
+
+.slide img {
+    float: left;
+}
+
+.zj {
+    height: 119px;
+    width: 800px;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+.zj img {
+    height: 150px;
+    margin-right: 30px;
+}
+
+.zj a {
+    float: right;
+    color: orangered;
+}
+
+.swiper .left {
+    width: 80px;
+    height: 80px;
+    color: gray;
+    font-size: 60px;
+    font-weight: bolder;
+    /* background-color: rgba(245, 245, 245, 0.6); */
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+}
+
+.swiper .right {
+    width: 80px;
+    height: 80px;
+    color: gray;
+    font-size: 60px;
+    font-weight: bolder;
+    /* background-color: rgba(245, 245, 245, 0.6); */
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    z-index: 99;
+    width: 100%;
+}
+
+.footer_main {
+    width: 100%;
+    position: relative;
+    height: 86px;
+}
+
+.foot_left {
+    position: absolute;
+    bottom: 0px;
+    width: 604px;
+    height: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #F7F8F7;
+    line-height: 15px;
+}
+
+.foot_center {
+    position: absolute;
+    width: 77px;
+    height: 59px;
+    left: 50%;
+    bottom: 0;
+    background: url(../img/downwhite20200922.png) no-repeat top center;
+}
+
+#sylw a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.tbody {
+    font-size: 12px;
+}

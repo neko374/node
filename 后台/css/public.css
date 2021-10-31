@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 12px;
+}

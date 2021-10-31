@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sss {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin: 16% 100px;
+}
+
+.ddd {
+    float: left;
+    margin: 14% 0;
+}
+
+.inp {
+    float: left;
+    margin: 6% 0;
+}
+
+.inp input {
+    width: 360px;
+    margin-top: 30px;
+}
+
+#btn {
+    width: 80px;
+    height: 30px;
+    background-color: skyblue;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 100px;
+}

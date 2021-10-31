@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+form input {
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 400px;
+    height: 40px;
+}
+
+form button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+tbody td {
+    border: 1px gray solid;
+}
+
+tbody {
+    text-align: center;
+    line-height: 20px;
+}
+
+tbody button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 12px;
+}

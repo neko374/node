@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>砖家评审🧱</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <style>
+        tbody td {
+            border: 1px gray solid;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        tbody {
+            text-align: center;
+            line-height: 34px;
+        }
+
+        tbody button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 2px 8px;
+            font-size: 12px;
+        }
+
+        .ps a {
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" width="100%" height="100%"></iframe>
+    <p style="float: left;margin-left: 7%;border-bottom: 2px solid blue;font-size: 30px;font-weight: 900;" id="point">
+        砖家评审🧱</p>
+    <table class="table table-hover" style="width: 1200px;margin: 0 auto;">
+        <thead>
+            <tr>
+                <th class="table-primary col-1 text-center" scope="col"></th>
+                <th class="table-primary col-4 text-center" scope="col">标题</th>
+                <th class="table-primary col-1 text-center" scope="col">上传时间</th>
+                <th class="table-primary col-2 text-center" scope="col">评分</th>
+                <th class="table-primary col-2 text-center" scope="col"></th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/zhuanjia.js"></script>
+</body>
+
+</html>

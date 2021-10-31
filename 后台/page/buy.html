@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购买论文</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <style>
+        tbody td {
+            border: 1px gray solid;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        tbody {
+            text-align: center;
+            line-height: 34px;
+        }
+
+        tbody button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 2px 8px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" width="100%" height="100%"></iframe>
+    <p style="float: right;margin-right: 10%;" id="point"></p>
+    <table class="table table-hover" style="width: 1200px;margin: 0 auto;">
+        <thead>
+            <tr>
+                <th class="table-primary col-1 text-center" scope="col"></th>
+                <th class="table-primary col-4 text-center" scope="col">标题</th>
+                <th class="table-primary col-1 text-center" scope="col">作者</th>
+                <th class="table-primary col-2 text-center" scope="col">上传时间</th>
+                <th class="table-primary col-1 text-center" scope="col"></th>
+                <th class="table-primary col-1 text-center" scope="col"></th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">购买须知</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    报告获取分两类：<br>1、个人积分：个人用户上传研究报告，经专家评鉴获得的积分可用于获取报告<br>2、单位包年：单位按一个小目标年整包平台使用权限，该单位指定用户可无限次下载
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/buy.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评分表</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/scorelist.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" width="100%" height="100%"></iframe>
+    <form class="search text-center">
+        <input type="search" id="title" placeholder="    请输入关键词"><button type="button" id="btn">检索</button><button type="button"
+            style="background-color: darkblue;" id="upload">上传论文</button><button type="button"
+            style="position:relative;left:280px;background:orangered" id="buy">购买论文</button>
+    </form>
+    <table class="table table-hover" style="width: 1200px;margin: 0 auto;">
+        <thead>
+            <tr style="border-top: 1px gray dashed;height: 30px;"></tr>
+            <tr>
+                <th class="table-primary col-1 text-center" scope="col"></th>
+                <th class="table-primary col-4 text-center" scope="col">标题</th>
+                <th class="table-primary col-1 text-center" scope="col">作者</th>
+                <th class="table-primary col-2 text-center" scope="col">上传时间</th>
+                <th class="table-primary col-1 text-center" scope="col">评审状态</th>
+                <th class="table-primary col-1 text-center" scope="col">得分星级</th>
+                <th class="table-primary col-1 text-center" scope="col">预览</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/swiper-bundle.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/scorelist.js"></script>
+</body>
+
+</html>

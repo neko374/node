@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>预览</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <iframe src="./header.html" frameborder="0" width="100%" height="100%"></iframe>
+    <span id="sp" style="margin-left: 10%;border-bottom: 2px solid blue;font-size: 20px;font-weight: 900;"></span>
+    <div id="iframe"></div>
+    <br>
+    <div class="d-grid gap-3 col-4 mx-auto"><button type="button" class="btn btn-primary btn-lg">返回</button></div>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/swiper-bundle.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = parent.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+        }
+        var uid = getUrlParam("uid")
+        $("#iframe").html(`<iframe src="../file/${uid}.pdf" frameborder="0" width="80%" height="600px" style="margin-left: 10%;"></iframe>`)
+        $(".btn").eq(0).click(function () {
+            window.close()
+        })
+        search()
+        function search() {
+            $.ajax({
+                url: "http://127.0.0.1:2333/api/zhuanjia",//请求地址
+                type: "get",//请求方式
+                data: {
+                    docid: uid,
+                },
+                dataType: "json",
+                success: function (data) {//请求成功回调
+                    $("#sp").html(data.data[0].title)
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
